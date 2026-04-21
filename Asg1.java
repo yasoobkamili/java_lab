@@ -9,14 +9,7 @@ public class Asg1{
 			System.out.print("Wrong input!! \n");
 		}
 		else{
-			// String s = Integer.toString(num);
-			// System.out.print(s+"\n");
-
-			// System.out.print(num%10 + "\n");
-			// System.out.print((num/10)%10+ "\n");
-			// System.out.print((num/100)%10+ "\n");
-			// System.out.print((num/1000)%10+ "\n");
-			// System.out.print((num/10000)%10+ "\n");
+		
 			int oddSum = ((num/10000)%10) + ((num/100)%10) + (num%10);
 			int evenSum = ((num/1000)%10) + ((num/10)%10);
 			System.out.print("sum of numbers at even positions: "+ evenSum + "\n");
