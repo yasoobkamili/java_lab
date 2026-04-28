@@ -23,9 +23,13 @@ public class Asg2{
 
         }
         int count = 0;
-        while(num%10 != 0){
-            num = num/10;
+        int temp = num;
+        while(temp != 0){
+            temp = temp/10;
             count ++;
+        }
+        if(num==0){
+            count = 1;
         }
         System.out.print(count+ "\n");
         if(count==3){
