@@ -1,0 +1,1 @@
+// Write a Java program to read a matrix using a twodimensional array and compute the sum of each row and each column.
